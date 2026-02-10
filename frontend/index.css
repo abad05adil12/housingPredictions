@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.nav{
+    background-color: white;
+    padding:19px 22px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap:80px;
+}
+
+.nav li{
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav ul li a:hover{
+    background-color: white;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    color:white;
+    gap:10px;
+    text-decoration: underline;
+    margin:35px;
+    font-weight:bold;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px;
+    background-color: white;
+    width:60vw;
+    height:59vh;
+    margin:auto;
+    border-radius: 23px;
+    box-shadow: 5px 5px 10px rgba(66, 66, 66, 0.3);
+}
+
+.form h2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+.form input{
+    position: relative;
+    width: 50vw;
+    padding: 15px 15px;
+    border-radius:25px;
+    margin:13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    border: none;
+    background-color: rgb(207, 205, 205);
+    font-size:1rem;
+    display:flex;
+    justify-content: center;
+}
+
+.form input:focus {
+  border-color: #4A90E2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+  outline: none;
+}
+
+.form input:active {
+  border-color: #2e6bb8;
+}
+
+.Gen-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:15px 20px;
+    background-color: gray;
+    color:black;
+    border:none;
+    border-radius: 29px;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    top:150px;
+    font-size:1rem;
+    transition:0.3s all ease-in-out;
+}
+
+.Gen-btn:hover{
+    background-color: white;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.info p{
+    position: relative;
+    margin: auto;
+    color: white;
+    font-size: 1.5rem;
+    padding-top:70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+footer{
+    position:relative;
+    top:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    max-width:100vw;
+    background: white;
+}
+
+footer p{
+    font-size: 1rem;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    text-decoration: underline;
+    text-transform: uppercase;
+}

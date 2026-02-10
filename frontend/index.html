@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houses Predict</title>
+    <link rel="icon" type="image/svg" href="openrouter_light.svg">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About Us</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main>
+        <header class="header">
+            Houses <span style="color:yellow;">Prediction</span> App.
+        </header>
+
+        <div class="form">
+            <h2><span style="color:pink;">Fill</span> &
+                <span style="color:pink;">Checkout</span> Info.
+            </h2>
+
+            <form id="form">
+                <input type="number" id="size" placeholder="Enter House size" required>
+                <input type="text" id="location" placeholder="Enter Location" required>
+                <input type="number" id="bedroom" placeholder="Enter Bedrooms" required>
+                <input type="number" id="age" placeholder="House Age (years)" required>
+
+                <button type="submit" class="Gen-btn">Generate</button>
+            </form>
+
+            <p id="result"></p>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
